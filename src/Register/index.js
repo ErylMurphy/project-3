@@ -54,10 +54,10 @@ class Register extends Component {
     return (
         <div className="Register">
           <form onChange={this.onFormChange} onSubmit={this.onFormSubmit}>
-            <h2>Sign up</h2>
+            <h2>New to NotPocket?</h2>
             <p><input type="email" placeholder="Email or Username" name="username" required value={this.state.username} /></p>
             <p><input type="password" placeholder="Password"name="password" required value={this.state.password} /></p>
-            <p><input className="button" type="submit" value="submit" /></p>
+            <p><input className="button" type="submit" value="Sign up" /></p>
           </form>
         </div>
     )
